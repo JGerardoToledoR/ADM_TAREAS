@@ -26,7 +26,7 @@ public class AuthService {
                 request.username(),
                 request.email(),
                 passwordEncoder.encode(request.password()),
-                Role.USER // Asignar rol por defecto
+                Role.USER
         );
         userRepository.save(user);
         var token = jwtService.generateToken(user);

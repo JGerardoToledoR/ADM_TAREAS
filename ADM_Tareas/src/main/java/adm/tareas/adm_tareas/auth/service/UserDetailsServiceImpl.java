@@ -1,5 +1,6 @@
 package adm.tareas.adm_tareas.auth.service;
 
+import adm.tareas.adm_tareas.users.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
